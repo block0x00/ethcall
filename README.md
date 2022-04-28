@@ -27,7 +27,7 @@ npm install bkc-ethcall
 
 ```js
 import { InfuraProvider } from '@ethersproject/providers';
-import { Contract, Provider } from 'ethcall';
+import { Contract, Provider } from 'bkc-ethcall';
 
 import erc20Abi from './abi/erc20.json';
 
