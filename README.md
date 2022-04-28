@@ -1,19 +1,6 @@
-# Modified
-Adding Bitkub Chain Mainnet and Testnet into this project.
+# Note
 
-### BKC Testnet
-```
-Multicall: 0x9C68D1017157339Fd6Bb53898A1EE5227A2fefEc
-Multicall2: 0xe25e43ac2Cee8C92880E624b036933d1243B02bA
-Multicall3: 0x012b6339091A50CDA954183B483c41dc2B85a3C7
-```
-
-### BKC Mainnet
-```
-Multicall: 0x3eb9f89B34ac5641B8170b838F3ADd054da9526e
-Multicall2: 0x23a5803AED326B0b1e809100bF34C1f8E9eb6523
-Multicall3: 0xd504F38130E8d0C2409F7bEA658dcfE0b29646Ca
-```
+This package is forked and modified from [Destiner package](https://github.com/Destiner/ethcall).
 
 # ethcall
 
@@ -24,7 +11,7 @@ Uses MakerDAO's [Multicall contracts](https://github.com/makerdao/multicall) to 
 Powered by [abi-coder](https://github.com/Destiner/abi-coder) and [ethers.js](https://github.com/ethers-io/ethers.js/).
 
 ```
-npm install ethcall
+npm install bkc-ethcall
 ```
 
 ## API
@@ -81,3 +68,20 @@ All Mulitcall contracts are stored in `src/multicall.ts` file. There are three `
 If you query a chain on which Multicall is not deployed, or if you query a historical block before the deployment of the contract, the deployless version will be used instead. In short, deployless Multicall "emulates" the deployed contract and returns the exact same data. Note that you can't query ETH balance using deployless version.
 
 You can read more about deployless Multicall [here](https://insights.magmatic.xyz/posts/deployless-multicall/).
+
+# Modified
+Adding Bitkub Chain Mainnet and Testnet into this project.
+
+### BKC Testnet
+```
+Multicall: 0x9C68D1017157339Fd6Bb53898A1EE5227A2fefEc
+Multicall2: 0xe25e43ac2Cee8C92880E624b036933d1243B02bA
+Multicall3: 0x012b6339091A50CDA954183B483c41dc2B85a3C7
+```
+
+### BKC Mainnet
+```
+Multicall: 0x3eb9f89B34ac5641B8170b838F3ADd054da9526e
+Multicall2: 0x23a5803AED326B0b1e809100bF34C1f8E9eb6523
+Multicall3: 0xd504F38130E8d0C2409F7bEA658dcfE0b29646Ca
+```
