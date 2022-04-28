@@ -1,3 +1,20 @@
+# Modified
+Adding Bitkub Chain Mainnet and Testnet into this project.
+
+### BKC Testnet
+```
+Multicall: 0x9C68D1017157339Fd6Bb53898A1EE5227A2fefEc
+Multicall2: 0xe25e43ac2Cee8C92880E624b036933d1243B02bA
+Multicall3: 0x012b6339091A50CDA954183B483c41dc2B85a3C7
+```
+
+### BKC Mainnet
+```
+Multicall: 0x3eb9f89B34ac5641B8170b838F3ADd054da9526e
+Multicall2: 0x23a5803AED326B0b1e809100bF34C1f8E9eb6523
+Multicall3: 0xd504F38130E8d0C2409F7bEA658dcfE0b29646Ca
+```
+
 # ethcall
 
 Utility library to make calls to Ethereum blockchain.

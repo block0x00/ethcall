@@ -1,12 +1,15 @@
 {
   "name": "ethcall",
   "version": "4.6.5",
-  "description": "ethers.js-compatible wrapper around Multicall",
+  "description": "ethers.js-compatible wrapper around Multicall that supports Bitkub chain test network and main network",
   "main": "lib/index.js",
-  "author": "Timur Badretdinov <destinerx@gmail.com>",
+  "author": "Block0x00 <block0x00@gmail.com>",
+  "homepage": "https://github.com/block0x00/ethcall",
   "keywords": [
     "ethers",
-    "ethereum"
+    "ethereum",
+    "bitkub",
+    "bitkubchain"
   ],
   "scripts": {
     "test": "vitest run",
@@ -18,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Destiner/ethcall.git"
+    "url": "git://github.com/block0x00/ethcall"
   },
   "license": "MIT",
   "dependencies": {
